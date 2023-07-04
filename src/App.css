@@ -15,10 +15,35 @@
   height: 70vh;
 }
 
+.Card img {
+  max-width: 10%;
+  height: auto;
+}
+
 .Footer {
   height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: lightgray;
+}
+
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+.App.dark {
+  background-color: black;
+  color: white;
+}
+
+.Card.light {
+  background-color: white;
+  color: black;
+}
+
+.Card.dark {
+  background-color: black;
+  color: white;
 }
